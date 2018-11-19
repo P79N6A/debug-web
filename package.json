@@ -4,7 +4,6 @@
   "description": "启动anyproxy，自动插入vconsole，对html进行修改，对js添加cors响应，来捕获window.onerror",
   "main": "lib/inject.vconsole.js",
   "scripts": {
-    "precommit": "lint-staged",
     "prettier": "prettier --write  \"src/**/*.js\"",
     "lint": "eslint src/**/*.js",
     "init":"anyproxy-ca",
@@ -24,17 +23,7 @@
     ]
   },
   "dependencies": {
-    "anyproxy":"4.0.10"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/winnieBear/debug-web.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/winnieBear/debug-web/issues"
-  },
-  "homepage": "https://github.com/winnieBear/debug-web#readme"
+    "anyproxy":"4.0.10",
+    "minimatch":"*"
+  }
 }

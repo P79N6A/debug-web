@@ -1,18 +1,18 @@
 {
 	"env": {
 		"browser": false,
-    "node": true,
-    "es6": true
+        "node": true,
+        "es6": true
   },
   "globals": {
     "fs": true
   },
 	"rules": {
 		"semi": [ "error", "always" ],
-    "no-unused-vars": "error",
-    "quotes": [
-        "error",
-        "single"
-    ]
+        "no-unused-vars": "error",
+        "quotes": [
+            "warn",
+            "single"
+        ]
   }
 }
